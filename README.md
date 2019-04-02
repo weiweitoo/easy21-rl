@@ -6,13 +6,15 @@ Question [Reference](reference)
 ## Monte-Carlo Learning
 Optimal value function V<sub>*</sub> with Monte-Carlo Agent running 100,000 episodes
 
-**Value Function Update**
-*V(S<sub>t</sub>)* <- *V(S<sub>t</sub>) + a (G<sub>t</sub> - V(S<sub>t</sub>))*
+**Q Function Update**
+V(S<sub>t</sub>) ← V(S<sub>t</sub>) + α (R<sub>t</sub> - V(S<sub>t</sub>))
 
 ![Tri-Surface Plot][mcGraph]
 
 ---
 ## SARSA
+**Q Function Update**
+V(S<sub>t</sub>) ← V(S<sub>t</sub>) + α (R<sub>t+1</sub> + yV(S<sub>t+1</sub>)  - V(S<sub>t</sub>))
 
 MSE Per Lambda                  |  MSE Per Episode
 :------------------------------:|:-------------------------:
