@@ -1,6 +1,6 @@
 # Reinforcement Learning Course By David Silver
 
-Question Reference[reference]
+Question [reference]
 
 ---
 ## Monte-Carlo Learning
