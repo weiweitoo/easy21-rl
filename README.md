@@ -28,7 +28,7 @@ MSE Per Lambda                  |  MSE Per Episode
 ![Point Plot][lfaGraph1] |  ![FacetGrid][lfaGraph2]
 
 
-[reference]: http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
+[reference]: http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/Easy21-Johannes.pdf
 [mcGraph]: https://raw.githubusercontent.com/weiweitoo/easy21-rl/master/img/mc.png
 [tdGraph1]: https://raw.githubusercontent.com/weiweitoo/easy21-rl/master/img/td1.png
 [tdGraph2]: https://raw.githubusercontent.com/weiweitoo/easy21-rl/master/img/td2.png
